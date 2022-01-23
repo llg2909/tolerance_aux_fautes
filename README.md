@@ -12,7 +12,7 @@ python ./launch_watchdog.py
 
 python ./launch_sensor.py
 
-Par défaut l'injection de fautes est activée. Celle ci est désactivalble dans le fichier serverComputing.py en fixant le booléen en paramètre de la fonction 
+Par défaut l'injection de fautes est activée. Celle ci est désactivable dans le fichier serverComputing.py en fixant le booléen en paramètre de la fonction 
 
 def data_processing(self,fault_Injection = True):
 
